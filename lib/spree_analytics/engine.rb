@@ -1,8 +1,6 @@
 module SpreeAnalytics
 
   class Engine < Rails::Engine
-    engine_name 'spree_analytics'
-
     config.autoload_paths += %W(#{config.root}/lib)
 
     # use rspec for tests
